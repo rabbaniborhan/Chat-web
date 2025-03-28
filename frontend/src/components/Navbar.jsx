@@ -1,4 +1,4 @@
-import { LogOut, MessageSquare, Settings, User } from "lucide-react";
+import { LogOut, Settings, User } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
@@ -18,7 +18,7 @@ const Navbar = () => {
               className="flex items-center gap-1 hover:opacity-80 transition-all"
             >
               <div className="size-9 rounded-lg br-primary/10 flex items-center justify-center ">
-                <MessageSquare className="w-5 h-5 text-primary " />
+                <img src="../../public/logo.png" className="w-8 h-8 " />
               </div>
               <h1 className="text-lg font-bold">Talksy</h1>
             </Link>
