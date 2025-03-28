@@ -42,7 +42,7 @@ const Login = () => {
             <div className="flex flex-col items-center gap-2 group ">
               <div className="size-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors ">
                 {" "}
-                <img src="../../public/logo.png" className="w-10 h-10 " />
+                <img src="/logo.png" className="w-10 h-10 " />
               </div>
               <h1 className="text-2xl font-bold  mt-2 ">Welcome Back </h1>
               <p className="text-base-content/60">Sign in to your account</p>
